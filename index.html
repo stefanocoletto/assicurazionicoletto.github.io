@@ -1,0 +1,85 @@
+<html>
+
+<br>
+
+<head>
+	<title>Assicurazioni Coletto</title>
+
+ <link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+
+<rel="shortcut icon" href="favicon.ico">
+
+<style>
+      #map {
+        height: 300px;
+        width: 50%;
+        margin-left: 220px;
+
+       }
+</style>
+
+</head>
+
+<body id="ground">
+
+<div id="content">
+
+<p><img src="logo.png" height="395" width="805" style="float:left" /></p>
+
+<p>Siamo a <a class="alt" href="http://maps.google.it/maps?hl=it&bav=on.2,or.r_gc.r_pw.r_qf.&bpcl=40096503&biw=1920&bih=971&q=via+xxv+aprile+17+trezzo+sull'adda&um=1&ie=UTF-8&hq=&hnear=0x47814cc950dbe209:0x132e8d2af23d6ed,Via+XXV+Aprile,+17,+Trezzo+Sull'Adda+MI&gl=it&sa=X&ei=jRzSUJLMGsvNsgbPvYHAAw&ved=0CDAQ8gEwAA"> Trezzo Sull'Adda (MI) <br> in Via XXV Aprile, 17 </a></p>
+
+<p><div id="map"></div>
+    <script>
+
+      function initMap() {
+        var uluru = {lat: 45.606407, lng: 9.5154993};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCq2uIzQKGchGdU0_pguyF5NOnhuyQG-U&callback=initMap">
+    </script>
+
+<br><br>
+
+<p>Telefono:
+02/9090289, 02/90937033 <br> Fax: 02/90939201</p>
+
+<p><i>Numero di iscrizione IVASS: A000169148</i></p>
+<p><i>Partita IVA: 06450320152<p><i><p><i>
+<p><i><a href="http://agenzie.axa.it/trezzosulladda1399"> >> Il nostro sito sul portale Axa << </a><p><i>
+	
+<p3>Clicca <script language="javascript"><!--
+var part1 = "info";
+var part2 = "assicurazionicoletto.com";
+var part3 = "info@assicurazionicoletto.com";
+var part4= "qui";
+document.write('<a href="mai' + 'lto:' + part1 + '@' + part2 + '">');
+document.write(part4 + '</a>');
+// -->
+</script> per contattarci via mail
+</p3>
+
+<br>
+
+<p3>all'indirizzo: <script language="javascript"><!--
+var part1 = "info";
+var part2 = "assicurazionicoletto.com";
+var part3 = "info@assicurazionicoletto.com";
+document.write('<a href="mai' + 'lto:' + part1 + '@' + part2 + '">');
+document.write(part3 + '</a>');
+// -->
+</script>
+</p3>
+
+</body>
+
+</html>

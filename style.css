@@ -1,0 +1,120 @@
+<style type "text/css">
+
+
+body {
+}
+
+div#content {
+	padding: 50px;
+	margin: 20px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fefffe url('/images/bg.png') fixed repeat-x 0 0;
+}
+
+#ground {
+	background-color: #292A85;
+}
+
+
+hr {
+        border: none;
+        background-color: #C4BCD4;
+        color: #C4BCD4;
+        height: 1px;
+}
+
+
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #333333;
+	text-align: left;
+	margin: 0 0 40px 0;
+	letter-spacing: 1px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+p2 {
+	font: normal 14px/96% Helvetica, Helvetica, "Times New Roman", Times;
+	color: #333333;
+	text-align: left;
+	margin: 0 0 10px 0;
+	letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+p3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #333333;
+	text-align: left;
+	margin: 0 0 40px 0;
+	letter-spacing: 1px;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+	font: normal 75px/96% "Times New Roman", Times;
+	color: #EB3230;
+	margin: 0 0 50px;
+	text-align: left;
+	letter-spacing: -1px;
+}
+
+
+img {
+	float: right;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+
+a {
+	color: #EF0000;
+	text-transform: none;
+	text-decoration: none;
+	font-variant: normal;
+
+}
+
+a:hover {
+	color: white;
+	background-color: #EF0000;
+}
+
+.alt {
+	color: #292A85;
+	text-transform: none;
+	text-decoration: none;
+	font-variant: normal;       
+}
+
+.alt:hover {
+        background: #292A85;
+        color: white;
+}
+
+
+.more {
+	display: none;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666; }
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 8px;
+	background: transparent url('down.gif') no-repeat left; }
+a.hideLink {
+	background: transparent url('up.gif') no-repeat left; }
+a.showLink:hover, a.hideLink:hover {
+	color: white;
+	background-color: #357EC7;
+	}
+
+
+</style>
